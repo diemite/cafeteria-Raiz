@@ -1,112 +1,114 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cafetería Raiz</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-    }
-    body {
-      background-color: #f4f1ed;
-      color: #2f2f2f;
-    }
-    header {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      background-image: url('FONDO.jpg'); /* REEMPLAZAR CON TU IMAGEN */
-      background-size: cover;
-      background-position: center;
-    }
-    .logo {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      width: 120px;
-      height: auto;
-    }
-    .seccion-fotos {
-      padding: 60px 20px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      background-color: #fff;
-    }
-    .seccion-fotos img {
-      width: 100%;
-      border-radius: 12px;
-      object-fit: cover;
-    }
-    .seccion-carta {
-      padding: 60px 20px;
-      text-align: center;
-      background-color: #e6ede3;
-    }
-    .seccion-carta h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #3e6049;
-    }
-    .qr-placeholder {
-      width: 200px;
-      height: 200px;
-      margin: 0 auto;
-      background-color: #cbd5c0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 16px;
-      font-size: 1rem;
-      color: #445f4b;
-    }
-    .seccion-contacto {
-      padding: 60px 20px;
-      background-color: #f8f8f8;
-      text-align: center;
-    }
-    .seccion-contacto h2 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-      color: #3e6049;
-    }
-    .seccion-contacto p {
-      font-size: 1rem;
-      margin-bottom: 8px;
-      color: #444;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Raiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: #f4f1ed;
+            color: #2f2f2f;
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('FONDO.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 120px;
+            height: auto;
+        }
+
+        .seccion-fotos {
+            padding: 60px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            background-color: #fff;
+        }
+
+        .seccion-fotos img {
+            width: 100%;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        .seccion-carta {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #e6ede3;
+        }
+
+        .seccion-carta h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #3e6049;
+        }
+
+        .qr-placeholder {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            background-color: #cbd5c0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+            font-size: 1rem;
+            color: #445f4b;
+        }
+
+        .seccion-contacto {
+            padding: 60px 20px;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+
+        .seccion-contacto h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #3e6049;
+        }
+
+        .seccion-contacto p {
+            font-size: 1rem;
+            margin-bottom: 8px;
+            color: #444;
+        }
+    </style>
 </head>
+
 <body>
-  <header>
-    <img src="LOGO.png" alt="Logo Cafetería" class="logo"> <!-- REEMPLAZAR CON TU LOGO -->
-  </header>
-
-  <section class="seccion-fotos">
-    <!-- Reemplaza estas imágenes por las tuyas -->
-    <img src="foto1.jpg" alt="Foto 1">
-    <img src="foto2.jpg" alt="Foto 2">
-    <img src="foto3.jpg" alt="Foto 3">
-  </section>
-
-  <section class="seccion-carta">
-    <h2>Nuestra Carta</h2>
-    <div class="qr-placeholder">
-      https://qrco.de/bg8lVW
-    </div>
-  </section>
-
-  <section class="seccion-contacto">
-    <h2>Contacto y Reservas</h2>
-    <p>Email: Raiz.Café@tu-cafeteria.cl</p>
-    <p>Teléfono: +56 9 1234 5678</p>
-    <p>Dirección: Calle Verde 123, Viña del mar, Chile</p>
-    <p>Horarios: Lunes a Sábado, 9:00 - 20:00</p>
-  </section>
+    <header><img src="LOGO.png" alt="Logo Cafetería" class="logo" style="margin: 0 auto 0 0; display: block; "></header>
+    <section class="seccion-fotos"><img src="foto1.jpg" alt="Foto 1" style="margin: 0 auto 0 0; display: block; ">&nbsp;<img src="foto2.jpg" alt="Foto 2" style="margin: 0 auto 0 0; display: block; ">&nbsp;<img src="foto3.jpg" alt="Foto 3" style="margin: 0 auto 0 0; display: block; "></section>
+    <section class="seccion-carta">
+        <h2>Nuestra Carta</h2>
+        <div class="qr-placeholder">https://qrco.de/bg8lVW</div>
+    </section>
+    <section class="seccion-contacto">
+        <h2>Contacto y Reservas</h2>
+        <p>Email: Raiz.Caf&eacute;@tu-cafeteria.cl</p>
+        <p>Tel&eacute;fono: +56 9 1234 5678</p>
+        <p>Direcci&oacute;n: Calle Verde 123, Vi&ntilde;a del mar, Chile</p>
+        <p>Horarios: Lunes a S&aacute;bado, 9:00 - 20:00</p>
+    </section>
 </body>
+
 </html>
